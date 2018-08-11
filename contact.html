@@ -5,35 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>bootStrapPortfolio</title>
+    <title>Bootstrap Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home
-
-                </a>
-                <a class="nav-item nav-link" href="#">Portfolio</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
-
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link active" href="#">Contact</a>
             </div>
         </div>
     </nav>
 
+    <form class="container">
+        
+            <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" class="form-control" id="Name" placeholder="type in name">
+            </div>
+            <div class="form-group">
+              <label for="Email">Email address</label>
+              <input type="email" class="form-control" id="Email" placeholder="type in email address">
+            </div>
+            <div class="form-group">
+                <label for="Message">Message</label>
+                <textarea class="form-control" id="Message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
     
     <footer class="footer fixed-bottom bg-light">
-        <div class=" text-center ">© 2018 Copyright Adrit
-        </div>
+        <div class=" text-center ">© 2018 Copyright Adrit</div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
